@@ -15,5 +15,5 @@ class Program
             int x1 = (Int32)obj1;
             double y1 = (double)obj2;
             string s1 = (string)obj3;
-           
+           console.ReadLine();
         }
