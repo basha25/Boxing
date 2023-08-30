@@ -1,0 +1,19 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 12;
+            double y = 123.45;
+            string name  = "rahman";
+
+            /*Boxing*/
+            object obj1 = x;
+            object obj2 = y;
+            object obj3 = name;
+
+            /*unboxing*/
+            int x1 = (Int32)obj1;
+            double y1 = (double)obj2;
+            string s1 = (string)obj3;
+           
+        }
